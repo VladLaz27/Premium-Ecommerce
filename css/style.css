@@ -1,0 +1,111 @@
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 14px;
+  	line-height: 21px;
+	background-color: #39c8b7;
+}
+
+.main-head {
+	background-color: #fff;
+	height: 118px;
+}
+
+.header-top {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 82px;
+	padding: 23px 21px 23px;
+}
+
+.header-top>a {
+	width: 110px;
+}
+
+.header-top form {
+	height: 33px;
+	margin-top: auto;
+}
+
+.input-group {
+	position: relative;
+	display: table;
+	border: 1px solid #cacaca;
+}
+
+.input-group input {
+    width: 404px;
+    height: 31px;
+    border: none;
+}
+
+.btn-search {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    right: 0px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.bascket-group {
+	display: flex;
+	height: 36px;
+}
+
+.bascket-group a:hover {
+	text-decoration: none;
+}
+
+.bascket-group p {
+	color: #a1a1a1;
+	font-size: 33px;
+	font-weight: 500;
+	margin: auto;
+	padding-left: 15px;
+}
+
+.header-bottom {
+	background-color: #4ccfc1;
+}
+
+.main-menu>.main-menu-list {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+}
+
+.main-menu>.main-menu-list li a {
+	color: #fff;
+	font-size: 21px;
+}
+
+.show-menu {
+	display: none;
+	width: 60px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 3px;
+	border: 2px solid #3cc5b1;
+	background-color: #3cc395;
+}
+
+.modal-show {
+	display: block;
+}

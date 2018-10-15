@@ -133,6 +133,11 @@ ul {
 	padding-right: 100px;
 }
 
+.s-image img {
+	width: 278px;
+	height: 325px;
+}
+
 .s-description {
 	width: 410px;
 	color: #fff;

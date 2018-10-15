@@ -48,11 +48,35 @@
 		display: none;
 }
 
-.s-image {
-	display: none;
+.s-image #image {
+	width: 150px;
+	height: 200px;
+}
+
+.s-description #h1 {
+	display: block;
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 30px;
+}
+
+.s-description #slide-decrip {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.s-description #buy-now {
+	display: inline-block;
+    margin-top: 5px;
+    padding: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff
 }
 	
-
 }
 
 /* Extra Small Devices, Phones */

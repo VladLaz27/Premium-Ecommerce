@@ -23,6 +23,11 @@
 	justify-content: center;
 	align-items: center;
 }
+
+#mn-list li a {
+	border-right: none;
+    padding-right: 0;
+}
 }
 
 /* Small Devices, Tablets */
@@ -41,6 +46,10 @@
 
 	#mn-list {
 		display: none;
+}
+
+.s-image {
+	display: none;
 }
 	
 

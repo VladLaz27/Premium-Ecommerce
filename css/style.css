@@ -20,7 +20,6 @@ ul {
 
 .main-head {
 	background-color: #fff;
-	height: 118px;
 }
 
 .header-top {
@@ -92,6 +91,8 @@ ul {
 .main-menu>.main-menu-list li a {
 	color: #fff;
 	font-size: 21px;
+	border-right: 2px solid #fff;
+    padding-right: 10px;
 }
 
 .show-menu {
@@ -108,4 +109,74 @@ ul {
 
 .modal-show {
 	display: block;
+}
+
+.s-slider {
+	height: 446px;
+}
+
+.s-slider .container .swiper-wrapper {
+	height: 446px;
+}
+
+.slide-1,
+.slide-2,
+.slide-3,
+.slide-4,
+.slide-5 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.s-image {
+	padding-right: 100px;
+}
+
+.s-description {
+	width: 410px;
+	color: #fff;
+	text-align: left;
+}
+
+.s-description h1 {
+	display: block;
+	text-transform: uppercase;
+	font-size: 43px;
+	line-height: 50px;
+}
+
+.s-description span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.s-description a {
+	display: inline-block;
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff
+}
+
+.s-slider .container .swiper-pagination {
+	bottom: 20px;
+}
+
+.swiper-pagination-bullet {
+	width: 9px;
+    height: 9px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: 1;
+}
+
+.s-slider .container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #fff;
+    opacity: 0.5;
 }

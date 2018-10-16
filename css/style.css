@@ -12,6 +12,7 @@ ul {
 }
 
 .wrapper {
+	position: relative;
 	font-family: 'Montserrat', sans-serif;
   	font-size: 14px;
   	line-height: 21px;
@@ -111,19 +112,19 @@ ul {
 	display: block;
 }
 
-.s-slider {
+.b-slider {
 	height: 446px;
 }
 
-.s-slider .container .swiper-wrapper {
+.b-slider .container .swiper-wrapper {
 	height: 446px;
 }
 
-.slide-1,
-.slide-2,
-.slide-3,
-.slide-4,
-.slide-5 {
+.swiper1 .swiper-wrapper .slide-1,
+.swiper1 .swiper-wrapper .slide-2,
+.swiper1 .swiper-wrapper .slide-3,
+.swiper1 .swiper-wrapper .slide-4,
+.swiper1 .swiper-wrapper .slide-5 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -168,7 +169,7 @@ ul {
     color: #fff
 }
 
-.s-slider .container .swiper-pagination {
+.b-slider .container .swiper-pagination {
 	bottom: 20px;
 }
 
@@ -181,7 +182,78 @@ ul {
     opacity: 1;
 }
 
-.s-slider .container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.b-slider .container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
 	background: #fff;
     opacity: 0.5;
+}
+
+.l-slider {
+	position: relative;
+	min-height: 190px;
+	background-color: #fff;
+}
+
+.l-slider .container .swiper-wrapper {
+	height: 190px;
+}
+
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+	width: 370px;
+}
+
+.ls-image {
+	width: 220px;
+}
+
+.slide-1 .ls-image {
+	background: url("../img/boots.png") no-repeat 0 0;
+	width: 217px;
+	height: 151px;
+}
+
+.slide-2 .ls-image {
+	background: url("../img/shirt.png") no-repeat 0 0;
+	width: 217px;
+	height: 151px;
+}
+
+.slide-3 .ls-image {
+	background: url("../img/shorts.png") no-repeat 0 0;
+	width: 217px;
+	height: 151px;
+}
+
+.ls-description span {
+	display: block;
+	color: #afafaf;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ls-description a {
+	display: inline-block;
+	margin-top: 8px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #3cc395;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.slide-button-next,
+.slide-button-prev {
+	position: absolute;
+	top: 75px;
+	width: 0;
+	height: 0;
+	z-index: 10;
 }

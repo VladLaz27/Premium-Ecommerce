@@ -7,7 +7,7 @@
 	<title>Premium-Ecommerce</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet">
-	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/swiper.min.css" rel="stylesheet" type="text/css">
   	<link href="css/style.css" rel="stylesheet">
   	<link href="css/media.css" rel="stylesheet" type="text/css">
@@ -39,8 +39,8 @@
 			</div>
 			<div class="header-bottom">
 				<div class="container">
-					<button class="show-menu close-menu"  id="show-menu" type="button">Menu</button>
-					<nav class="main-menu" id="main-menu">
+					<a class="show-menu"  id="menu-icon" type="button">Menu</a>
+					<nav class="main-menu expand" id="main-menu">
 						<ul class="main-menu-list" id="mn-list">
 							<li>
 								<a href="#">Home</a>
@@ -165,7 +165,28 @@
 							<div class="slide-3 swiper-slide">
 								<div class="ls-image"></div>
 								<div class="ls-description">
-									<span>Branded Shorts</span>
+									<span>Branded<br>Shorts</span>
+									<a href="#">Shop</a>
+								</div>
+							</div>
+							<div class="slide-1 swiper-slide">
+								<div class="ls-image"></div>
+								<div class="ls-description">
+									<span>Branded Shoes</span>
+									<a href="#">Shop</a>
+								</div>
+							</div>
+							<div class="slide-2 swiper-slide">
+								<div class="ls-image" id="ls-image"></div>
+								<div class="ls-description">
+									<span>Branded Tshirts</span>
+									<a href="#">Shop</a>
+								</div>
+							</div>
+							<div class="slide-3 swiper-slide">
+								<div class="ls-image"></div>
+								<div class="ls-description">
+									<span>Branded<br>Shorts</span>
 									<a href="#">Shop</a>
 								</div>
 							</div>
@@ -186,7 +207,7 @@
 							<div class="slide-3 swiper-slide">
 								<div class="ls-image"></div>
 								<div class="ls-description">
-									<span>Branded Shorts</span>
+									<span>Branded<br>Shorts</span>
 									<a href="#">Shop</a>
 								</div>
 							</div>
@@ -207,15 +228,142 @@
 							<div class="slide-3 swiper-slide">
 								<div class="ls-image"></div>
 								<div class="ls-description">
-									<span>Branded Shorts</span>
+									<span>Branded<br>Shorts</span>
 									<a href="#">Shop</a>
 								</div>
 							</div>
-						</div>	
-						
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="banner">
+				<div class="container">
+					<h2 class="banner-h">Banner</h2>
+				</div>
+			</div>
+			<section class="main">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-9 col-lg-8 col-sm-12 col-12 order-lg-1 s-main">
+							<span>Featured products</span>
+							<div class="items">
+								<div class="row">
+									<div class="col-12 col-xl-6 col-md-6 item-wrap">
+										<div class="item">
+											<div class="image image-1"></div>
+											<div class="i-description">
+												<span>Branded Shoe</span>
+												<div class="price">
+													<span>$300</span>
+													<a href="#">Buy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-xl-6 col-md-6 item-wrap">
+										<div class="item">
+											<div class="image image-2"></div>
+											<div class="i-description">
+												<span>Branded Shoe</span>
+												<div class="price">
+													<span>$300</span>
+													<a href="#">Buy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-xl-6 col-md-6 item-wrap">
+										<div class="item">
+											<div class="image image-3"></div>
+											<div class="i-description">
+												<span>Branded Shoe</span>
+												<div class="price">
+													<span>$500</span>
+													<a href="#">Buy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-xl-6 col-md-6 item-wrap">
+										<div class="item">
+											<div class="image image-4"></div>
+											<div class="i-description">
+												<span>Branded Shoe</span>
+												<div class="price">
+													<span>$400</span>
+													<a href="#">Buy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-xl-6 col-md-6 item-wrap">
+										<div class="item">
+											<div class="image image-5"></div>
+											<div class="i-description">
+												<span>Branded Shoe</span>
+												<div class="price">
+													<span>$350</span>
+													<a href="#">Buy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-xl-6 col-md-6 item-wrap">
+										<div class="item">
+											<div class="image image-6"></div>
+											<div class="i-description">
+												<span>Branded Shoe</span>
+												<div class="price">
+													<span>$150</span>
+													<a href="#">Buy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-sm-12 col-12">
+							<div class="sidebar">
+								<div class="news">
+									<div class="n-title">
+										<span>News</span>
+									</div>
+									<div class="n-text">
+										<a href="#">Brands</a>
+									</div>
+									<div class="n-text">
+										<a href="#">Videos</a>
+									</div>
+									<div class="n-text">
+										<a href="#">Novelty</a>
+									</div>
+								</div>
+								<div class="manufacturers">
+									<div class="n-title">
+										<span>Manufacturers</span>
+									</div>
+									<div class="n-text">
+										<a href="#">Alexis Hudson</a>
+									</div>
+									<div class="n-text">
+										<a href="#">Ben Sherman</a>
+									</div>
+									<div class="n-text">
+										<a href="#">Chanel</a>
+									</div>
+									<div class="n-text">
+										<a href="#">Cole Haan</a>
+									</div>
+									<div class="n-text">
+										<a href="#">Adidas</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>	
 	</div>
 	<script src="js/swiper.min.js" type="text/javascript"></script>

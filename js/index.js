@@ -11,9 +11,10 @@
  	
 
   	var swiper2 = new Swiper('.swiper2', {
+  	  slidesPerView: 3,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 2500, 
         disableOnInteraction: false,
       },
       pagination: {
@@ -25,3 +26,11 @@
         prevEl: '.swiper-button-prev',
       },
     });
+
+
+    $(document).ready(function(){
+  $('#menu-icon').on('click', function(){
+    $('.main-menu').toggleClass('expand');
+    return false;
+  });
+});

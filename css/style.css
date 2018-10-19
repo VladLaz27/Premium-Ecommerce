@@ -23,11 +23,15 @@ ul {
 	background-color: #fff;
 }
 
+.expand {
+    max-height: 20em;
+}
+
 .header-top {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	height: 82px;
+	min-height: 82px;
 	padding: 23px 21px 23px;
 }
 
@@ -191,26 +195,18 @@ ul {
 	position: relative;
 	min-height: 190px;
 	background-color: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.5);
 }
 
 .l-slider .container .swiper-wrapper {
 	height: 190px;
 }
 
-.swiper-slide {
+.swiper2 .swiper-slide {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.slide-1,
-.slide-2,
-.slide-3 {
-	width: 370px;
-}
-
-.ls-image {
-	width: 220px;
+	border-right: 1px solid #cacaca;
 }
 
 .slide-1 .ls-image {
@@ -227,7 +223,7 @@ ul {
 
 .slide-3 .ls-image {
 	background: url("../img/shorts.png") no-repeat 0 0;
-	width: 217px;
+	width: 170px;
 	height: 151px;
 }
 
@@ -256,4 +252,117 @@ ul {
 	width: 0;
 	height: 0;
 	z-index: 10;
+}
+
+.banner {
+	height: 67px;
+}
+
+.banner-h {
+	line-height: 65px;
+	font-size: 28px;
+	color: #fff;
+}
+
+.main {
+	padding-top: 45px;
+	background-color: #fff;
+}
+
+.news {
+	margin-bottom: 20px;
+}
+
+.news,
+.manufacturers {
+	border: 2px solid #3cc395;
+	border-radius: 5px;
+}
+
+.news div,
+.manufacturers div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news span,
+.manufacturers span {
+    color: #afafaf;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.news a,
+.manufacturers a {
+    color: #3cc395;
+    font-size: 20px;
+}
+
+.items {
+	padding-left: 60px;
+}
+
+.s-main>span {
+	display: block;
+	padding-left: 60px;
+	margin-bottom: 40px;
+	color: #afafaf;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.item-wrap {
+	margin-bottom: 45px;
+}
+
+.item {
+	width: 290px;
+	border: 1px solid #cacaca;
+	border-bottom: 5px solid #3cc395;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5); 
+	font-weight: 500;
+}
+
+.item .image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 132px;
+}
+
+.i-description>span {
+	padding: 0 57px;
+	text-transform: uppercase;
+	color: #afafaf;
+	font-size: 20px;
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	
+	margin: 10px 57px;
+}
+
+.price>span {
+	display: flex;
+    align-items: center;
+	text-transform: uppercase;
+	color: #afafaf;
+	font-size: 20px;
+}
+
+.price>a {
+	display: inline-block;
+	margin-top: 8px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #3cc395;
+	padding: 5px;
+	border-radius: 3px;
 }

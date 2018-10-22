@@ -25,7 +25,7 @@ ul {
 
 .expand {
     max-height: 20em;
-}
+} 
 
 .header-top {
 	position: relative;
@@ -366,3 +366,4 @@ ul {
 	padding: 5px;
 	border-radius: 3px;
 }
+
